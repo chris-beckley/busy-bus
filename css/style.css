@@ -38,7 +38,7 @@ body {
 
 .compass {
   position: relative;
-  right: 9.5px
+  right: 13px;
 }
 
 .sign {
@@ -64,7 +64,7 @@ body {
   position: relative;
   float: left;
   padding-right: 60px;
-  left: 35px;
+  left: 34px;
   font-size: 16px;
 }
 
@@ -73,7 +73,7 @@ body {
   float: left;
   color: #0663F8;
   left: 29px;
-  font-size: 16px
+  font-size: 16px;
 }
 
 .text-right {
@@ -107,7 +107,7 @@ body {
 .options {
   position: relative;
   float: left;
-  left: 34%;
+  left: 33%;
   top: -1px;
 }
 
