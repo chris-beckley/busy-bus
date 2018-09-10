@@ -85,7 +85,6 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 100%;
   padding: 5px;
 }
 
@@ -111,10 +110,6 @@ body {
   top: -1px;
 }
 
-.bus-info {
-  width: 100%;
-  padding: 10px;
-}
 
 .image {
   position: relative;
@@ -147,6 +142,10 @@ h1 {
   padding-bottom: 5px;
 }
 
+.direction {
+  font-weight: 400;
+}
+
 
 .bus-stop {
   position: relative;
@@ -160,17 +159,50 @@ h1 {
 
 .content {
   border-bottom: 0.5px solid black;
-  width: 100%;
-  padding-bottom: 5%;
+  padding: 4%;
+}
+
+.alert-container {
+  background-color: red;
+  padding: 2%;
+}
+
+.alert {
+  float: left;
+  position: relative;
+  color: yellow;
+  margin: 10px;
+}
+
+.route-alert {
+  color: white;
+  position: relative;
+  padding: 5px;
+  left: 8px;
+  top: 1px;
 }
 
 .content-last {
-  padding-bottom: 15%;
+  padding-bottom: 14%;
+}
+
+.expand-content {
+  color: white;
+  position: relative;
+  float: right;
+  bottom: 38px;
+  right: 15px;
+}
+
+.route-container {
+  background-color: #3E86DF;
+  padding: 1%
 }
 
 .route {
+  color: white;
   position: relative;
-  padding-top: 4%;
+  margin: 4%;
 }
 
 .bus-number {
@@ -189,6 +221,7 @@ h1 {
 
 .time {
   position: relative;
+  font-size: 1.2em;
   float: right;
-  bottom: 40px
+  bottom: 40px;
 }
