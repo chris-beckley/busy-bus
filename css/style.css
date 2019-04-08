@@ -94,8 +94,10 @@ body {
 }
 
 .container {
+  background-color: white;
   margin: 0 auto;
-  padding: 5px;
+  padding: 4px;
+  height: 40px;
 }
 
 .arrow {
@@ -124,12 +126,10 @@ body {
 .image {
   position: relative;
   margin: 0 auto;
-  top: 5px;
 }
 
 .container-two {
   background-color: #B1B1C2;
-  width: 100%;
   padding: 2%;
 }
 
@@ -168,6 +168,7 @@ h1 {
 }
 
 .content {
+  background-color: white;
   border-bottom: 0.5px solid black;
   padding: 4%;
 }
