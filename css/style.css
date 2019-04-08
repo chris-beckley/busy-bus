@@ -4,10 +4,16 @@
 
 
 body {
-  background-color: #EFEFEF;
+  background-color: #515555;
   color: black;
   font-family: Roboto, sans-serif;
   font-size: 18px;
+}
+
+.phone-container {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .status-bar {
