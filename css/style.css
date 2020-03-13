@@ -179,14 +179,14 @@ h1 {
 }
 
 .alert-container {
-  background-color: red;
+  background-color: #DC143C;
   padding: 2%;
 }
 
 .alert {
   float: left;
   position: relative;
-  color: yellow;
+  color: #FFD700;
   margin: 10px;
 }
 
